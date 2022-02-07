@@ -1,0 +1,28 @@
+.activity-wrapper{
+  ion-list-header{
+    font-weight: 500;
+    font-size: 15px;
+  }
+  ion-item{
+    --inner-border-width: 0;
+    ion-avatar{
+      width: 42px;
+      height: 42px;
+    }
+  }
+  ion-label{
+    p{
+      font-size: 13px;
+      white-space: normal;
+      color: var(--ion-color-dark);
+    }
+  }
+  .suggestion-container{
+    ion-button{
+      height: 24px;
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+  }
+}
+
